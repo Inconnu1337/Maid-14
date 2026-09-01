@@ -72,5 +72,17 @@ public sealed class MaidCVars
     public static readonly CVarDef<bool> RoundEndWeapons =
         CVarDef.Create("maid.round_end_weapons_enabled", true, CVar.SERVERONLY);
 
+    /// <summary>
+    ///     Enable collecting adaptive rule balancing statistics.
+    /// </summary>
+    public static readonly CVarDef<bool> AdaptiveStatistics =
+        CVarDef.Create("maid.adaptive_statistics", false, CVar.SERVERONLY);
+
+    /// <summary>
+    ///     Whether IC messages get their slang words automatically replaced with in-character ones.
+    /// </summary>
+    public static readonly CVarDef<bool> ChatSlangFilter =
+        CVarDef.Create("ic.slang_filter", true, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
+
     #endregion
 }
