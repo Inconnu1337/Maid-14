@@ -2,7 +2,7 @@ chatsan-announce-slang-sanitization =
     "Внимание! { $admin } { $value ->
         [True] включил
         [False] выключил
-       *[other] _
+       *[other] неизвестно
     } защиту от детей!"
 
 cmd-enableslangsanitization-desc = Включает или выключает автозамену сленга в IC-чате.
