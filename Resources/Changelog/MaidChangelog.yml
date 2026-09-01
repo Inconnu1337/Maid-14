@@ -1149,3 +1149,67 @@ Entries:
       message: Пофикшен бра в лодаутах.
   id: 101
   time: '2026-08-26T17:05:53.0000000+00:00'
+- author: CREAsTIVE
+  changes:
+    - type: Remove
+      message: Цель "проучить" была удалена.
+  id: 102
+  time: '2026-08-28T20:14:33.0000000+00:00'
+- author: CREAsTIVE
+  changes:
+    - type: Remove
+      message: Сильные карпы из разлома дракона
+    - type: Tweak
+      message: Тела, съеденные драконом больше не гниют
+  id: 103
+  time: '2026-08-28T20:17:16.0000000+00:00'
+- author: CREAsTIVE
+  changes:
+    - type: Add
+      message: Событие, превращающие случайные предметы в артефакты
+  id: 104
+  time: '2026-08-29T18:42:48.0000000+00:00'
+- author: CREAsTIVE
+  changes:
+    - type: Tweak
+      message: Убрана вариация звука у колокола
+  id: 105
+  time: '2026-08-29T18:44:46.0000000+00:00'
+- author: CREAsTIVE
+  changes:
+    - type: Fix
+      message: Прикреплённые предметы больше нельзя засунуть в утилизационный бак
+  id: 106
+  time: '2026-08-30T05:37:37.0000000+00:00'
+- author: CREAsTIVE
+  changes:
+    - type: Tweak
+      message: Заряд дубинки теперь тратится только при попадании по игрокам.
+    - type: Tweak
+      message: У дубинки отключен удар правой кнопкой мыши.
+  id: 107
+  time: '2026-08-30T10:43:46.0000000+00:00'
+- author: CREAsTIVE
+  changes:
+    - type: Fix
+      message: Анализатор здоровья больше не имеет задержки при открытии интерфейса
+  id: 108
+  time: '2026-08-30T10:45:43.0000000+00:00'
+- author: CREAsTIVE
+  changes:
+    - type: Add
+      message: Звуки радиосвязи
+  id: 109
+  time: '2026-08-30T10:46:56.0000000+00:00'
+- author: CREAsTIVE
+  changes:
+    - type: Tweak
+      message: Предметы артефакты теперь происходят гораздо реже
+  id: 110
+  time: '2026-09-01T08:07:47.0000000+00:00'
+- author: Urames
+  changes:
+    - type: Fix
+      message: Теперь лектер видно в руках
+  id: 111
+  time: '2026-09-01T08:15:03.0000000+00:00'
