@@ -117,10 +117,25 @@
 - type: entity
   name: space carp
   id: BaseMobCarp
-  parent: [ SimpleSpaceMobBase, FlyingMobBase, MobCombat ]
+  parent: [ SimpleSpaceMobBase, FlyingMobBase, MobCombat, BaseMobDanger ] # MAID
   description: It's a space carp.
   abstract: true
   components:
+    # MAID BEGIN adaptive scores
+    - type: AdaptiveScoreStatic
+      combatScore:
+        base: 3
+        target: 0
+        in: 420
+      chaosScore:
+        base: 1
+        target: 0
+        in: 420
+      conditions:
+      - !type:AdaptiveScoreAliveCondition
+      conditionTables:
+      - OnStationGrid
+    # MAID END adaptive scores
     - type: WeatherImmune # Lavaland Change
     - type: InputMover
     - type: MobMover

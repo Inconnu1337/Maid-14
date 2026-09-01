@@ -433,7 +433,9 @@
 - type: entity
   name: space cobra
   id: MobCobraSpace
-  parent: MobSpaceBasic
+  parent:
+  - MobSpaceBasic
+  - BaseMobDanger # MAID
   description: Long fangs and a glowing hood, and the alluring look begs to come closer.
   components:
   - type: Body # Shitmed Change

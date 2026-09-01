@@ -112,7 +112,9 @@
 # Hacky for the stress test so don't even consider adding to this
 - type: entity
   name: space adder
-  parent: SimpleSpaceMobBase
+  parent:
+  - SimpleSpaceMobBase
+  - BaseMobDanger # MAID
   id: MobPurpleSnake
   description: A menacing purple snake from Kepler-283c.
   components:

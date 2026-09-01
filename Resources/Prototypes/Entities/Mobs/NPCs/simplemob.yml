@@ -119,7 +119,7 @@
   - MobFlammable
   id: SimpleSpaceMobBase # Mob without barotrauma, freezing and asphyxiation (for space carps!?)
   suffix: AI
-  components:
+  components: # MAID: TODO: adaptive gamemode: Count if fraction aren't neutral condition or something
   - type: NpcFactionMember
     factions:
     - SimpleNeutral

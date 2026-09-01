@@ -34,6 +34,7 @@
   - MobDamageable
   - MobAtmosExposed
   - MobCombat
+  - BaseMobDanger # MAID
   abstract: true
   components:
   - type: Reactive

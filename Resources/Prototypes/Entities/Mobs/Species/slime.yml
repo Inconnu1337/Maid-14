@@ -72,6 +72,8 @@
   abstract: true
   components:
   - type: Hunger
+  - type: OnDeathSounds # MAID sound-porting override
+    heartSounds: null
   - type: Thirst
   - type: Icon
     sprite: Mobs/Species/Slime/parts.rsi
@@ -86,7 +88,7 @@
     - 0,0,1,2
     maxItemSize: Large
     storageInsertSound:
-      path: /Audio/Voice/Slime/slime_squish.ogg
+      path: /Audio/_Maid/Voice/Slime/slime_squish.ogg #MAID Sound porting
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
@@ -153,8 +155,8 @@
   - type: Barotrauma
     damage:
       types:
-        Blunt: 0.50 #per second, scales with pressure and other constants.
-        Heat: 0.2 # 0.1 more than humans, i feel like low pressure would make slime boil more than blunt stretch them so i decided on this instead.
+        Blunt: 1.0 #per second, scales with pressure and other constants. # MAID barotrauma fix
+        Heat: 0.7 # 0.1 more than humans, i feel like low pressure would make slime boil more than blunt stretch them so i decided on this instead. # MAID barotrauma fix
   - type: Reactive
     groups:
       Flammable: [ Touch ]
