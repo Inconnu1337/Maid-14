@@ -501,7 +501,7 @@ namespace Content.Server.Ghost
                 if (uid == except)
                     continue;
 
-                var mind = mindContainer.Mind ?? mindContainer.LastMindStored;
+                var mind = mindContainer.Mind;
                 var isDead = _mobState.IsDead(uid);
 
                 if (!isDead && TryGetAntagRole(mind, out var antagRole))
