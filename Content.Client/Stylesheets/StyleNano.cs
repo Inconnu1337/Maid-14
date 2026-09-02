@@ -1504,7 +1504,7 @@ namespace Content.Client.Stylesheets
                     new SelectorElement(typeof(MenuButton), null, null, new[] {Button.StylePseudoClassNormal}),
                     new[]
                     {
-                        new StyleProperty(Button.StylePropertyModulateSelf, ButtonColorDefault),
+                        new StyleProperty(Button.StylePropertyModulateSelf, Color.FromHex("#29282f")), // Maid14
                     }),
 
                 new StyleRule(
@@ -1512,13 +1512,6 @@ namespace Content.Client.Stylesheets
                     new[]
                     {
                         new StyleProperty(Button.StylePropertyModulateSelf, ButtonColorDefaultRed),
-                    }),
-
-                new StyleRule(
-                    new SelectorElement(typeof(MenuButton), null, null, new[] {Button.StylePseudoClassNormal}),
-                    new[]
-                    {
-                        new StyleProperty(Button.StylePropertyModulateSelf, ButtonColorDefault),
                     }),
 
                 new StyleRule(
